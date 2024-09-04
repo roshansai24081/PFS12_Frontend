@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Heading tags<h1>
+        <h1> Heading 1<h1>
+        <h2> Heading 2<h2>
+        <h3> Heading 3<h3>
+        <h4> Heading 4<h4>
+        <h5> Heading 5<h5>
+        <h6> Heading 6<h6>
+        <P>This is a paragraph</P>
+        <a href="https://codegnan.com/hyderabad/">Codegnan</a>
+        <img src=".//HTML/download.jpg" alt="codgnan logo"/>
+        <button>Click me</button>
+        <hr/>
+        <br/>
+        <span>Span is an inline element </span>
+        <p>Lorem &nbsp; ipsum dolor sit amet consectetur adipisicing elit. Similique ducimus cupiditate nobis fugit debitis a facilis dolorum harum nemo quibusdam qui repellat, odio laborum doloremque natus iusto assumenda ea perferendis.</p>
+        <heading>Heading is a semantic element</heading>
+        <section> Section is a body semantic element</section>
+        <footer>Footer semantic element</footer>
+    </div>
+</body>
+</html>
