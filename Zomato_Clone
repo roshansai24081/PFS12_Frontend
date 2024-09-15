@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato_Clone</title>
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            width: 100% ;
+        }
+        .container{width: 100%;
+            margin: auto;
+        }
+        .header{position: relative;}
+        .image-container{
+            position: relative;
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+        }
+        .image-container img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.1);
+        
+        }
+        .header-body-section{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            color: white;
+        }
+        .nav{
+            font-weight: 550;
+            height: 50px;
+        }
+        .container-nav{display: flex;
+        justify-content: space-between;}
+        .logocontainer{
+            display: flex;
+            align-items: center;
+            margin-left: 200px
+        }
+        .logocontainer p{
+            font-size: 15px;
+            font-weight: 100;
+            padding: 5px;
+        }
+        .nav ul{
+            list-style: none; 
+            display: flex;
+            margin-right: 215px;
+        }
+        .nav ul li{
+            padding: 0px 3px;
+            margin-right: 25px;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        .nav ul li a{
+            color: inherit;
+            text-decoration: none;
+        }
+        .zomato-logo{width: 280px;}
+        .container-header-body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            flex-direction: column;
+
+        }
+        .header-body-content{
+            position: relative;
+            top: 50px;
+        }
+        .header-body-section-discover{
+            font-size:42px;
+            margin: 29px 0px;
+        }
+        .search-container{
+            background-color: white;
+            width: 100%;
+            height: 50px;
+            max-width:780px;
+            border-radius: 10px;
+            display:flex;
+            align-items: center;
+            padding: 7px;
+
+        }
+        .location-map{
+            color: rgb(221, 146, 146);
+            font-size: 22px;
+        }
+        .caret-up{
+            color: black;
+        }
+        .detection-loctaion input{
+             border: none;
+             font-size: 15px;
+             width: 190px;
+        }
+        .search-item{
+            color: black;
+            font-size: 18px;
+        }
+        .line{
+            padding: 7px;
+            color: black;
+        }
+        .search-item input{
+            max-width: 100%;
+            width: 400px;
+            font-size: 15px;
+            border: none;
+            padding: 5 10px;
+            outline: none;
+        
+        }
+.main-body {
+  position: relative;
+  max-width: 110rem;
+  max-height: initial;
+  margin: 0px auto;
+}
+
+.options {
+  margin: auto;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.option {
+  position: relative;
+  width: 100%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex: 1;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  height: 23rem;
+}
+
+.info {
+  padding: 1rem 2rem 1.6rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  background: white;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 0px 0px 1.2rem 1.2rem;
+}
+
+.image {
+  border-radius: 1.2rem;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+.image img {
+  margin-top: 35px;
+  width: 100%;
+  height: 75%;
+  object-fit:cover;
+  transform: scale(1.0423C15);
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  filter: unset;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.info .title {
+  text-align: left;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 0rem;
+}
+
+.info .description {
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: inherit;
+  line-height: 1.5rem;
+  margin: 0px;
+  font-size: 20px;
+}
+.heading-2 {
+  font-weight: 500;
+  font-size: 3.6rem;
+}
+
+.heading-6 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.see-more {
+  background-color: transparent;
+  font-weight: 300;
+  color: rgb(255, 126, 139);
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.desc-see-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collections-list {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  gap: 10px;
+}
+
+.collection {
+  position: relative;
+  width: 100%;
+  max-width: 25%;
+  height: 32rem;
+}
+
+.image {
+  height: 32rem;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 0.6rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+}
+
+.overlay-info {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  line-height: 1.5;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  padding: 0px 1.6rem;
+  font-size: 1.8rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.popular-localities .title {
+  margin: 0px;
+  color: rgb(54, 54, 54);
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  margin-left: 200px;
+}
+.popular-localities{
+  
+  height: 500px;
+}
+
+.popular-localities .title .city-name {
+  font-weight: 50;
+}
+
+.localities {
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10rem;
+  margin-left: 200px;
+}
+
+.locality {
+  padding:2px;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  margin-bottom: 0.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  width: 30%;
+  font-size: 1.6rem;
+}
+
+.locality-title {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 200;
+  color: rgb(28, 28, 28);
+  margin: 0px 0px 0.5rem;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.locality-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0px;
+  margin-left: 10px;
+  color: rgb(54, 54, 54);
+  font-weight: 200;
+}
+
+.locality .center {
+  margin: auto;
+  margin-left: 100px;
+  
+  
+}
+
+.locality .center i {
+  margin-left: 30px;
+}
+
+.locality:hover {
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
+}
+@media (max-width: 300px) {
+  .main-body {
+    margin: 0px 2.4rem;
+  }
+
+  .main-body .option {
+    height: auto;
+  }
+
+  .info .title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .info .description {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .collection {
+    height: 17.7rem;
+  }
+
+  .overlay {
+    height: 17.7rem;
+  }
+
+  .image {
+    height: 17.7rem;
+  }
+
+  .email-input .btn {
+    content: "Share";
+  }
+}
+
+@media (max-width: 500px) {
+  .main-body .option {
+    max-width: 45%;
+    flex: auto;
+  }
+
+  .main-body .see-more {
+    display: none;
+  }
+
+  .heading-2 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  .desc-see-more h6 {
+    font-size: 1.2rem;
+  }
+
+  .collections-list {
+    flex-wrap: wrap;
+  }
+
+  .collection {
+    max-width: 45%;
+  }
+
+  .popular-localities .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .locality {
+    width: 100%;
+  }
+}
+.app-section {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 251, 247);
+}
+
+.app-section .content {
+ 
+  position: relative;
+  max-width: 40rem;
+  max-height: initial;
+  margin: 3rem auto 0px;
+  margin-bottom: 2.5px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.app-section .phone-image {
+  position: relative;
+  max-width: 100%;
+  width: 25rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.app-section .phone-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: none;
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  filter: unset;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.app-section .phone-title {
+  color: rgb(28, 28, 28);
+  margin: 0px 0px 1.5rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  /* line-height: 5.6rem; */
+}
+
+.app-section .app-description {
+  font-size: inherit;
+  margin: 0px 0px 2.5rem;
+  color: rgb(54, 54, 54);
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.app-section .option-selector {
+  display: flex;
+  font-size: 1.6rem;
+  width: 50%;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+input[type="radio"] {
+  accent-color: rgb(239, 79, 95);
+}
+
+.email-input {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 10px;
+}
+
+.email-input .email {
+  padding: 1.3rem 1.2rem;
+  height: 2.2rem;
+  background: rgb(255, 255, 255);
+  border: 0.1rem solid rgb(207, 207, 207);
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  color: rgb(28, 28, 28);
+  font-weight: 200;
+}
+
+.email-input .btn {
+  background-color: rgb(239, 79, 95);
+  color: white;
+  border: none;
+  width: 250px;
+  border-radius: 0.6rem;
+  font-size: 10px;
+  padding: 0 1.6rem;
+  cursor: pointer;
+}
+
+.email-input .btn:hover {
+  background-color: rgb(242, 60, 78);
+}
+
+.app-section .caption {
+  /* line-height: 1.5; */
+  margin: 0px 0px 1.5rem;
+  color: rgb(156, 156, 156);
+  font-size: 1.4rem;
+}
+
+.store .buttons img {
+  object-fit:fill;
+  position: relative;
+  max-width: 100%;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-top: 7.5rem;
+    max-width: 42.4rem;
+    margin: 0px 2.4rem;
+  }
+
+  .content .phone-image {
+    display: none;
+  }
+
+  .app-section {
+    padding: 0 1rem;
+  }
+}
+.explore-options {
+  padding: 5rem 0;
+  width: 100%;
+  height: 700px;
+  margin: auto;
+}
+
+.explore-options .heading {
+  margin: 0px 0px 2rem;
+  color: rgb(54, 54, 54);
+  margin-left: 350px;
+  font-size: 30px;
+  line-height: 4rem;
+  font-weight: 500;
+}
+
+.accordions {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem;
+  padding: 2rem 2.4rem;
+  border: 1px solid rgb(232, 232, 232);
+  width: 80%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.accordion-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.accordion-container i {
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.accordion-data {
+  margin-top: 2rem;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.accordion-data ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  list-style: none;
+  align-items: center;
+}
+
+.accordion-data li {
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-right: 1rem;
+  font-weight: 200;
+}
+
+.accordion-data li:hover {
+  color: black;
+}
+
+.accordion-data .small-circle {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: rgb(130, 130, 130);
+  border-radius: 50%;
+  margin-right: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.animate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 800px) {
+  .explore-options {
+    margin: 0px 2.4rem;
+    max-width: 100vw;
+    width: auto;
+  }
+}
+footer {
+  width: 100%;
+  background: rgb(248, 248, 248);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.footer-data {
+  height: 600px;
+  max-width: 110rem;
+  width: 80rem;
+  padding: 4.8rem 0px 2.2rem;
+  position: relative;
+}
+
+footer .footer-top {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  height: 100px;
+}
+
+.footer-top img {
+  height: 2rem;
+  width: 10rem;
+  margin-left: 60px;
+}
+
+.footer-top .country-dropdown {
+  
+  /* min-width: 10rem; */
+  /* width: 180px; */
+  /* max-width: 100%; */
+  cursor: pointer;
+  position: relative;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 0.6rem;
+  display: flex;
+  font-size: 20px;
+  font-weight: 200;
+  gap: 5px;
+  align-items: center;
+  text-overflow: ellipsis;
+  height: 30px;
+}
+
+.country-dropdown img {
+ 
+  height: 1rem;
+  width: 1rem;
+}
+
+.footer-top .row {
+  gap: 10px;
+}
+
+.row {
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.middle .footer-links {
+  position: relative;
+  width: 100%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 18.3333%;
+  padding: 0px;
+  
+}
+
+.middle .footer-title {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px 0px 1.2rem;
+  width: 100%;
+  margin-left: 41px;
+}
+
+.middle ul {
+  list-style-type: none;
+}
+
+.middle ul li {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: rgb(105, 105, 105);
+  margin: 0.5rem 0px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.middle .column {
+  gap: 20px;
+}
+
+.middle .column .footer-links {
+  max-width: fit-content;
+}
+
+.socials ul {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-links .socials li {
+  margin: 0;
+  width: fit-content;
+}
+
+.socials li i {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 100%;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links .buttons img {
+  margin-left: 40px;
+  width: 150px;
+  height: 50px;
+}
+
+footer hr {
+  margin-top: 5rem;
+  border-top: solid 1px rgb(207, 207, 207);
+}
+
+footer .end {
+  font-size: 1rem;
+  color: rgb(79, 79, 79);
+  line-height: 1.7rem;
+  margin-top: 2.3rem;
+}
+
+@media (max-width: 800px) {
+  .footer-data {
+    padding: 4.8rem 2.4rem 2.2rem;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  footer .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .footer-top img {
+    margin-bottom: 3rem;
+  }
+
+  section .row {
+    flex-wrap: wrap;
+  }
+
+  .middle .footer-links {
+    max-width: 50%;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+  }
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"/>
+        </div>
+        
+        <div class="header-body-section">
+            <nav class="nav">
+                <div class="container container-nav">
+                    <div class="logocontainer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>download-app</title><path d="M18.5793 9.18939H16.5865H16.3199C15.7307 9.18939 15.2529 9.6672 15.2529 10.2583V10.3742C15.2529 10.9659 15.7307 11.444 16.3207 11.444H18.3156H18.5793C19.1696 11.444 19.6488 10.9639 19.6488 10.3742L19.6477 10.2569C19.6488 9.6672 19.1696 9.18939 18.5793 9.18939Z"></path><path d="M18.5804 6.52262H18.1097V1.35122C18.1097 0.607964 17.5017 0 16.7582 0H7.84167C7.09841 0 6.49045 0.608249 6.49045 1.35122V5.06151C4.69196 6.07821 2.83696 7.14029 2.83296 7.14286C1.82597 7.5573 0.350586 8.89453 0.350586 12.0522C0.350586 12.3342 0.369139 12.5945 0.395113 12.846C0.40339 12.9197 0.412524 12.9904 0.422514 13.0615C0.448488 13.2462 0.481027 13.4229 0.519845 13.5907C0.533831 13.6506 0.544678 13.7131 0.559805 13.7705C0.612039 13.9646 0.67255 14.1467 0.740482 14.32C0.774733 14.4059 0.811839 14.4841 0.84923 14.5646C0.88919 14.6494 0.929436 14.7327 0.972535 14.8106C1.02249 14.9045 1.07244 14.995 1.12724 15.0809C1.14037 15.1009 1.15464 15.1192 1.16805 15.1394C2.46847 17.1052 4.8675 17.114 4.8675 17.114H6.49045V18.6494C6.49045 19.3918 7.09841 19.9997 7.84167 19.9997H16.7579C17.5014 19.9997 18.1094 19.3915 18.1094 18.6494V16.7767H18.3155V16.7755H18.5784C19.1695 16.7755 19.6487 16.2974 19.6476 15.7063L19.6487 15.5898C19.6476 14.9996 19.1695 14.5229 18.5792 14.5229H18.3155H16.5861H16.3195C15.7292 14.5229 15.2525 15.0007 15.2525 15.5907V15.7091C15.2525 16.2977 15.7304 16.7775 16.3203 16.7775H17.1692V17.5008H7.43036V7.79877C7.91959 7.48851 8.37256 7.18995 8.63088 6.98987C9.93957 5.97774 11.1818 5.17169 11.3499 4.4407C11.5688 3.49222 10.8407 2.69302 9.57765 3.34922C9.17976 3.55587 8.36315 4.00885 7.43036 4.53261V2.14129L17.1692 2.14271V6.52205H16.5861V6.52319H16.3209C15.7304 6.52319 15.2511 7.001 15.2511 7.59269V7.70858C15.2511 8.29999 15.7303 8.77665 16.3195 8.77665H16.5846H18.3141H18.5798C19.1695 8.77665 19.6476 8.29884 19.6476 7.70858V7.58955C19.6487 7.00186 19.1709 6.52262 18.5804 6.52262ZM12.2986 17.9752C12.6731 17.9752 12.9751 18.2774 12.9751 18.6511C12.9751 19.0255 12.6728 19.3267 12.2986 19.3267C11.9256 19.3267 11.6242 19.0247 11.6242 18.6511C11.6247 18.2786 11.927 17.9752 12.2986 17.9752ZM13.7266 1.30098H10.8735C10.7839 1.30098 10.7097 1.2282 10.7097 1.13829C10.7097 1.04695 10.7839 0.974169 10.8735 0.974169H13.7266C13.8163 0.974169 13.8893 1.04667 13.8893 1.13829C13.8893 1.22792 13.8163 1.30098 13.7266 1.30098Z"></path><path d="M18.5788 11.8561H18.3151H16.3193C15.7302 11.8561 15.251 12.3353 15.251 12.9253V13.0423C15.251 13.6329 15.7291 14.1107 16.3193 14.1107H16.5845H18.3139H18.5782C19.1693 14.1107 19.646 13.6329 19.6474 13.0423V12.9253C19.6472 12.3353 19.1705 11.8561 18.5788 11.8561Z"></path></svg>
+                        <p> Get the app</p>
+                    </div>
+                    <ul>
+                        <li><a href=""> Investor Relations</a></li>
+                        <li><a href=""> Add restaurant</a></li>
+                        <li><a href="">Log in</a></li>
+                        <li><a href=""> Signup</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-body-content">
+                <div class="container container-header-body">
+                    <img class="zomato-logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png">
+                    <P class="header-body-section-discover">Discover the best food & drinks in Hyderabad</P>
+                    <div class="search-container">
+                        <div class="detection-loctaion">
+                            <i class="fa-solid fa-location-dot location-map"></i>
+                            <input type="text" placeholder="Hyderabad"/>
+                            <i class="fa-solid fa-caret-down caret-up"></i>
+                        </div>
+                        <div class="line">
+                            |
+                        </div>
+                        <div class="search-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <div class="main-body"></div>
+        <div class="options">
+          <div class="option">
+            <div class="image">
+              <img
+                src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+              />
+            </div>
+            <div class="info">
+              <p class="title">Order Online</p>
+              <p class="description">Stay home and order on your doorstep</p>
+            </div>
+          </div>
+
+          <div class="option">
+            <div class="image">
+              <img
+                src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+              />
+            </div>
+            <div class="info">
+              <p class="title">Dining</p>
+              <p class="description">View the city's favorite dining venues</p>
+            </div>
+          </div>
+
+          <div class="option">
+            <div class="image">
+              <img
+                src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+              />
+            </div>
+            <div class="info">
+              <p class="title">Live events</p>
+              <p class="description">
+                Discover India's best events and concerts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section class="popular-localities">
+            <div class="title">
+              Popular localities in and around
+              <span class="city-name">Hyderabad</span>
+            </div>
+            <div class="localities">
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Jubliee Hills</div>
+                  <div class="locality-description">409 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Gachibowli</div>
+                  <div class="locality-description">806 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Banjara Hills</div>
+                  <div class="locality-description">418 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Hitech City</div>
+                  <div class="locality-description">381 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Madhapur</div>
+                  <div class="locality-description">879 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Kondapur</div>
+                  <div class="locality-description">611 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Kukatpally</div>
+                  <div class="locality-description">1478 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="locality-info">
+                  <div class="locality-title">Begumpet</div>
+                  <div class="locality-description">161 Places</div>
+                </div>
+                <i class="fa fa-chevron-right"></i>
+              </div>
+  
+              <div class="locality">
+                <div class="center">
+                  see more
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="app-section">
+            <div class="content">
+              <div class="phone-image">
+                <img
+                  src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"
+                />
+              </div>
+              <div class="app-info">
+                <div class="phone-title">Get the Zomato app</div>
+                <div class="app-description">
+                  We will send you a link, open it on your phone to download the app
+                </div>
+    
+                <section class="option-selector">
+                  <div class="radio-option">
+                    <input id="email" type="radio" name="radio" checked />
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="radio-option">
+                    <input id="phone" type="radio" name="radio" />
+                    <label for="phone">Phone</label>
+                  </div>
+                </section>
+    
+                <section class="email-input">
+                  <input type="email" placeholder="Email" class="email" />
+                  <button class="btn">Share App Link</button>
+                </section>
+    
+                <section class="store">
+                  <div class="caption">Download app from</div>
+                  <div class="buttons">
+                    <img
+                      src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                    />
+                    <img
+                      src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                    />
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+          <section class="explore-options">
+            <div class="heading">Explore options near me</div>
+            <div class="accordions">
+              <div class="accordion">
+                <div class="accordion-container">
+                  <div class="accordion-title">Popular cuisines near me</div>
+                  <i class="fa fa-chevron-down fa-2x"></i>
+                </div>
+                  
+              </div>
+    
+              <div class="accordion">
+                <div class="accordion-container">
+                  <div class="accordion-title">
+                    Popular restaurant types near me
+                  </div>
+                  <i class="fa fa-chevron-down fa-2x"></i>
+                </div>
+              </div>
+    
+              <div class="accordion">
+                <div class="accordion-container">
+                  <div class="accordion-title">Top restraunt chains</div>
+                  <i class="fa fa-chevron-down fa-2x"></i>
+                </div>
+              </div>
+    
+              <div class="accordion">
+                <div class="accordion-container">
+                  <div class="accordion-title">Cities we deliver to</div>
+                  <i class="fa fa-chevron-down fa-2x"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer-data">
+              <section class="footer-top">
+                <img
+                  src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&amp;crop=198:42;*,*"
+                  alt="Zomato logo"
+                  class="sc-elhb8j-1 ixsoFB"
+                />
+                <div class="row">
+                  <div class="country-dropdown">
+                    <img src=https://thumbs.dreamstime.com/b/india-flag-vector-illustration-eps-symbol-91249660.jpg class="flag" />
+                    <p>India</p>
+                    <i class="fa fa-chevron-down"></i>
+                  </div>
+                  <div class="country-dropdown">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    <i class="fa fa-chevron-down"></i>
+                  </div>
+                </div>
+              </section>
+              <section class="middle row">
+                <div class="footer-links">
+                  <h6 class="footer-title">About Zomato</h6>
+                  <ul>
+                    <li>Who we are</li>
+                    <li>Blog</li>
+                    <li>Work with us</li>
+                    <li>Investor Relations</li>
+                    <li>Report Fraud</li>
+                    <li>Contact us</li>
+                  </ul>
+                </div>
+      
+                <div class="footer-links">
+                  <h6 class="footer-title">Zomaverse</h6>
+                  <ul>
+                    <li>Zomato</li>
+                    <li>Blinkit</li>
+                    <li>Feeding India</li>
+                    <li>Hyperpure</li>
+                    <li>Zomaland</li>
+                  </ul>
+                </div>
+      
+                  <div class="footer-links">
+                    <h6 class="footer-title">For Restaurants</h6>
+                    <ul>
+                      <li>Partner With Us</li>
+                      <li>Apps for you</li>
+                    </ul>
+                  </div>
+
+                <div class="footer-links">
+                  <h6 class="footer-title">Learn more</h6>
+                  <ul>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Terms</li>
+                    <li>Sitemap</li>
+                  </ul>
+                </div>
+      
+                <div class="footer-links">
+                  <h6 class="footer-title">Social Links</h6>
+                  <div class="socials">
+                    <ul>
+                      <li><i class="fa-brands fa-linkedin"></i></li>
+                      <li><i class="fa-brands fa-instagram"></i></i></li>
+                      <li><i class="fa-brands fa-twitter"></i></i></li>
+                      <li></i><i class="fa-brands fa-youtube"></i></li>
+                      <li></i><i class="fa-brands fa-facebook"></i></li>
+                    </ul>
+                  </div>
+                  <div class="buttons">
+                    <img
+                      src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                    />
+                    <img
+                      src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                    />
+                  </div>
+              </section>
+      
+              <hr />
+              <section class="end">
+                By continuing past this page, you agree to our Terms of Service,
+                Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+                properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+                rights reserved.
+              </section>
+            </div>
+          </footer>
+</body>
+</html>
